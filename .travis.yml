@@ -1,0 +1,9 @@
+script:
+  - mkdir build
+  - cd build
+  - cmake ..
+  - make
+  - ./gaussian_elimination/gaussian_elimination ../gaussian_elimination/data/data.txt
+notifications:
+  email:
+    - reximkut@gmail.com
