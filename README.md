@@ -1,7 +1,7 @@
-# la # [![Build Status](https://travis-ci.org/rexim/libla.svg)](https://travis-ci.org/rexim/libla)
+# la [![Build Status](https://travis-ci.org/rexim/libla.svg)](https://travis-ci.org/rexim/libla)
 
 Just practicing in linear algebra. Nothing special. :)
 
-## Usage ##
+## Usage
 
 See `.travis.yml` file
