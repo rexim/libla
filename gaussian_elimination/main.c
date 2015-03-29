@@ -31,7 +31,7 @@ void read_input_parameters(const char *data_file_name)
         perror(data_file_name);
         exit(EXIT_FAILURE);
     }
-    fscanf(data_file, "%d%lf%lf%lf%d", &n, &minimum, &maximum, &precision, &seed);
+    fscanf(data_file, "%d%lf%lf%lf%u", &n, &minimum, &maximum, &precision, &seed);
     fclose(data_file);
 }
 
