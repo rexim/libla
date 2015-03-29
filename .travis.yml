@@ -4,6 +4,7 @@ before_install:
   - sudo apt-get update -qq
 install:
   - sudo apt-get install gcc-4.8
+before_script:
   - export CC="gcc-4.8"
 script:
   - mkdir build
